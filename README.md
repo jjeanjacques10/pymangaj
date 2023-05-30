@@ -15,7 +15,8 @@ pip install pymangaj
 To use pymangaj, import the `pymangaj` module and call the `search()` method. Pass the manga name, chapter, and the sources you want to search from as arguments. The method will return a list of manga pages.
 
 ``` python
-from pymangaj import pymangaj, Sources
+from pymangaj.pymangaj import pymangaj
+from pymangaj.pymangaj import Sources
 
 pymangaj.search("Naruto", 1, sources=[Sources.MANGA_LIVRE, Sources.MUITO_MANGA])
 ```

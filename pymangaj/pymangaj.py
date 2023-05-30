@@ -1,6 +1,6 @@
 from enum import Enum
-from mangalivre import MangaLivre
-from muitomanga import MuitoManga
+from .mangalivre import MangaLivre
+from .muitomanga import MuitoManga
 
 class Sources(Enum):
     MANGA_LIVRE = 'manga_livre'

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pymangaj',
-    version='0.1.3',
+    version='0.1.4',
     description='Search and download mangas.',
     long_description='PyMangaj is a Python library for searching and retrieving manga pages from different sources. It provides a simple interface to fetch manga pages from popular manga websites.',
     author='Jean Jacques Barros',
