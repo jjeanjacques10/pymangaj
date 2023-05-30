@@ -1,6 +1,6 @@
 from enum import Enum
-from .sources.mangalivre import MangaLivre
-from .sources.muitomanga import MuitoManga
+from mangalivre import MangaLivre
+from muitomanga import MuitoManga
 
 class Sources(Enum):
     MANGA_LIVRE = 'manga_livre'
@@ -18,7 +18,7 @@ class SourceFactory:
         return cls(manga_name, chapter)
 
 
-class pymanga:
+class pymangaj:
     
     @staticmethod
     # Get mangas by sources

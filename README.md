@@ -1,6 +1,6 @@
 # PyMangaJ
 
-pymangaj is a Python library for searching and retrieving manga pages from different sources. It provides a simple interface to fetch manga pages from popular manga websites.
+Pymangaj is a Python library for searching and retrieving manga pages from different sources. It provides a simple interface to fetch manga pages from popular manga websites.
 
 ## Installation
 
@@ -12,12 +12,12 @@ pip install pymangaj
 
 ## Getting Started
 
-To use pymangaj, import the `pymanga` module and call the `search()` method. Pass the manga name, chapter, and the sources you want to search from as arguments. The method will return a list of manga pages.
+To use pymangaj, import the `pymangaj` module and call the `search()` method. Pass the manga name, chapter, and the sources you want to search from as arguments. The method will return a list of manga pages.
 
 ``` python
-from pymangaj import pymanga, Sources
+from pymangaj import pymangaj, Sources
 
-pymanga.search("Naruto", 1, sources=[Sources.MANGA_LIVRE, Sources.MUITO_MANGA])
+pymangaj.search("Naruto", 1, sources=[Sources.MANGA_LIVRE, Sources.MUITO_MANGA])
 ```
 
 ## Sources
