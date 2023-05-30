@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pymangaj',
-    version='0.1.0',
+    version='0.1.1',
     description='Search and download mangas.',
     long_description='Search and download mangas from the internet.',
     author='Jean Jacques Barros',

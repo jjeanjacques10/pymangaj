@@ -1,6 +1,6 @@
 from enum import Enum
-from sources.mangalivre import MangaLivre
-from sources.muitomanga import MuitoManga
+from pymanga.sources.mangalivre import MangaLivre
+from pymanga.sources.muitomanga import MuitoManga
 
 class Sources(Enum):
     MANGA_LIVRE = 'manga_livre'
