@@ -1,0 +1,6 @@
+test.py
+*.pyc
+/build
+/dist
+/pymanga.egg-info
+.pypirc
