@@ -40,7 +40,7 @@ class MangaLivre:
         url = f"https://mangalivre.net/series/chapters_list.json?page={page}&id_serie={id_serie}"
     
         try:
-            response = requests.request("GET", url, headers=headers, data={})
+            response = requests.get(url, headers=headers, data={})
             if response.status_code == 200:
                 for chapter in response.json().get('chapters'):
                     if chapter.get('number') == str(self.chapter):

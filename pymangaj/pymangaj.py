@@ -23,11 +23,14 @@ class pymangaj:
     @staticmethod
     # Get mangas by sources
     def search(manga_name, chapter, **sources):
-        result = []
+        pages_result = []
+        if(len(sources) == 0): sources = {'sources':[Sources.MANGA_LIVRE]}
+        if(len(sources['sources']) == 0): raise Exception("Invalid source")
+
         for source in sources['sources']:
             manga_downloader = SourceFactory.get_source(source, manga_name, chapter)
-            pages = manga_downloader.search()
-            result += pages
+            chapter_pages = manga_downloader.search()
+            pages_result += chapter_pages
         
-        return result
+        return pages_result
 
