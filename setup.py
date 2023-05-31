@@ -1,10 +1,14 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+
 setup(
     name='pymangaj',
-    version='0.1.5',
+    version='0.1.6',
     description='Search and download mangas.',
-    long_description='PyMangaj is a Python library for searching and retrieving manga pages from different sources. It provides a simple interface to fetch manga pages from popular manga websites.',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author='Jean Jacques Barros',
     author_email='jjean.jacques10@gmail.com',
     url='https://github.com/jjeanjacques10/pymangaj',
