@@ -24,10 +24,11 @@ pymangaj.search("Naruto", 1, sources=[Sources.MANGA_LIVRE, Sources.MUITO_MANGA])
 
 pymangaj supports the following manga sources:
 
-|          Source                       | Language | Status | 
-| ------------------------------------- | -------- | ------ | 
-| [MangaLivre](https://mangalivre.net/) |   PT-BR  |   ✅   | 
-| [MuitoManga](https://muitomanga.com/) |   PT-BR  |   ✅   | 
+|          Source                       | Language | Status  |    Source     |
+| ------------------------------------- | -------- | ------  |  ----------   |
+| [MangaLivre](https://mangalivre.net/) |   PT-BR  |   ✅   |  MANGA_LIVRE   |
+| [MuitoManga](https://muitomanga.com/) |   PT-BR  |   ✅   |  MUITO_MANGA   |
+| [Manganato](https://manganato.com/)   |   EN-US  |   ✅   |  CHAPMANGANATO |
 
 ## License
 

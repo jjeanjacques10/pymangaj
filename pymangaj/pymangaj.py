@@ -1,15 +1,18 @@
 from enum import Enum
 from .mangalivre import MangaLivre
 from .muitomanga import MuitoManga
+from .chapmanganato import Chapmanganato
 
 class Sources(Enum):
     MANGA_LIVRE = 'manga_livre'
     MUITO_MANGA = 'muito_manga'
+    CHAPMANGANATO = 'chapmanganato'
 
 class SourceFactory:
     _value_map = {
         Sources.MANGA_LIVRE: MangaLivre,
-        Sources.MUITO_MANGA: MuitoManga
+        Sources.MUITO_MANGA: MuitoManga,
+        Sources.CHAPMANGANATO: Chapmanganato
     }
 
     @staticmethod
