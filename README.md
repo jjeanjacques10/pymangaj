@@ -41,3 +41,7 @@ Contributions to pymangaj are welcome! If you have any bug reports, feature requ
 ## Authors
 
 - [@jjeanjacques10](https://github.com/jjeanjacques10)
+
+## Contributors
+
+- [@fabiobarkoski](https://github.com/fabiobarkoski)
