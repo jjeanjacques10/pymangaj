@@ -26,9 +26,10 @@ pymangaj supports the following manga sources:
 
 |          Source                       | Language | Status  |    Source     |
 | ------------------------------------- | -------- | ------  |  ----------   |
-| [MangaLivre](https://mangalivre.net/) |   PT-BR  |   ✅   |  MANGA_LIVRE   |
-| [MuitoManga](https://muitomanga.com/) |   PT-BR  |   ✅   |  MUITO_MANGA   |
+| [MangaLivre](https://mangalivre.net/) |   PT-BR  |   ❌   |  MANGA_LIVRE   |
+| [MuitoManga](https://muitomanga.com/) |   PT-BR  |   ❌   |  MUITO_MANGA   |
 | [Manganato](https://manganato.com/)   |   EN-US  |   ✅   |  CHAPMANGANATO |
+| [LerManga](https://lermanga.org/)     |   PT-BR  |   ✅   |  LER_MANGA     |
 
 ## License
 

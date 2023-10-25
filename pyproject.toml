@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pymangaj"
-version = "0.1.8"
+version = "0.1.9"
 description = "Search and download mangas."
 authors = [
     {name = "Jean Jacques Barros", email = "jjean.jacques10@gmail.com"},
