@@ -19,7 +19,7 @@ class SourceFactory:
     }
 
     @staticmethod
-    def get_source(value, manga_name, chapter):
+    def get_source(value, manga_name, chapter=0):
         cls = SourceFactory._value_map[value]
         return cls(manga_name, chapter)
 
@@ -39,4 +39,10 @@ class pymangaj:
             pages_result += chapter_pages
         
         return pages_result
+
+    @staticmethod
+    # Get mangas titles from sources
+    def search_titles(manga_name, source):
+        manga_downloader = SourceFactory.get_source(source, manga_name)
+        return manga_downloader.get_titles()
 

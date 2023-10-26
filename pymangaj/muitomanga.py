@@ -10,7 +10,7 @@ class MuitoManga():
         self.manga = manga
         self.chapter = chapter
 
-    def search_manga(self, manga_name):
+    def get_titles(self, manga_name):
         url = f"https://muitomanga.com/buscar?q={manga_name}"
 
         headers = {
@@ -48,7 +48,7 @@ class MuitoManga():
 
 
     def search(self):
-        mangas = self.search_manga(self.manga.replace(" ", "+"))
+        mangas = self.get_titles(self.manga.replace(" ", "+"))
 
         if len(mangas) == 0:
             raise Exception("Manga não encontrado")

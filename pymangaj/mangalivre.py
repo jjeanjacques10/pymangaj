@@ -26,7 +26,7 @@ class MangaLivre:
         self.manga_name = manga_name
         self.chapter = chapter
 
-    def search_manga(self, name):
+    def get_titles(self, name):
         url = "https://mangalivre.net/lib/search/series.json"
 
         payload = f"search={name}"
@@ -70,7 +70,7 @@ class MangaLivre:
 
 
     def search(self):
-        mangas = self.search_manga(self.manga_name)
+        mangas = self.get_titles(self.manga_name)
         if not mangas:
             raise Exception("Manga não encontrado")
 
